@@ -38,6 +38,26 @@ To compile and run the code, you need:
    ```bash
    g++ -o azul_step azul_step.cpp
 
+## Run the compiled program:
+
+./azul_step
+
+## Usage
+Once the program is compiled, Azul will move forward to climb a step, pick up a cap, and move it to the far right. The program will then stop, keeping the window open for you to observe the result.
+
+## Sample Output:
+The output is a simulation of the robot's movement, so no direct textual output will be printed. Instead, you will observe the robot:
+
+Moving to the step.
+
+Climbing the step.
+
+Moving towards the right wall and picking up the cap.
+
+Dropping the cap at the far-right position.
+
+## Dependencies
+This program relies on the fgcu::Azul class, which is part of a specific simulator or library. Ensure you have access to the required environment for running this program.
 
 ## License
 
